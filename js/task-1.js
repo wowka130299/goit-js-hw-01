@@ -1,7 +1,8 @@
 'use strict';
 
 function makeTransaction(quantity, pricePerDroid) {
-   return `You ordered ${quantity} droids worth ${pricePerDroid} credits!`;   
+    const sum = quantity * pricePerDroid;
+   return `You ordered ${quantity} droids worth ${sum} credits!`;   
 }
 
 
